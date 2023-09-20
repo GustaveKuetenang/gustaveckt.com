@@ -1,16 +1,4 @@
-# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
-PassengerAppRoot "/home/cp2185246p27/public_html/_addons/gustaveckt.com"
-PassengerBaseURI "/"
-PassengerNodejs "/home/cp2185246p27/nodevenv/public_html/_addons/gustaveckt.com/18/bin/node"
-PassengerAppType node
-PassengerStartupFile .output/server/index.mjs
-# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
-# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION BEGIN
-<IfModule Litespeed>
-</IfModule>
-# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION END
-
 RewriteEngine On
 RewriteCond %{SERVER_PORT} 443
-RewriteRule ^index.php(.*) <http://gustaveckt.com::2910/$1> [P,L]
-RewriteRule (.*) <http://gustaveckt.com:2910/$1> [P,L]
+RewriteRule ^index.php(.*) http://gustaveckt.com::2910/$1 [P,L]
+RewriteRule (.*) http://gustaveckt.com:2910/$1 [P,L]
