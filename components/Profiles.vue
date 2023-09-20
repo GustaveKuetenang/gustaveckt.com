@@ -1,5 +1,4 @@
-<script>
-</script>
+<script></script>
 
 <template>
   <div
@@ -7,20 +6,19 @@
     <div class="w-1/2">
       <div
         class="mx-auto rounded-full bg-white h-[40px] w-[40px] md:h-[60px] md:w-[60px] flex items-center justify-center">
-        <img
+        <nuxt-img placeholder
           class="object-cover max-w-[14px] md:max-w-[24px] mx-auto"
-          height="100%" width="100%"
-          src="/assets/icons/linkedIn.svg"
+          height="100%" width="100%" src="/icons/linkedIn.svg"
           alt="linkedIn icon" />
       </div>
     </div>
     <div class="w-1/2">
       <div
         class="mx-auto rounded-full bg-white h-[40px] w-[40px] md:h-[60px] md:w-[60px] flex items-center justify-center">
-        <img
+        <nuxt-img placeholder
           class="object-cover max-w-[14px] md:max-w-[24px] mx-auto"
-          height="100%" width="100%"
-          src="/assets/icons/github.svg" alt="github icon" />
+          height="100%" width="100%" src="/icons/github.svg"
+          alt="github icon" />
       </div>
     </div>
   </div>

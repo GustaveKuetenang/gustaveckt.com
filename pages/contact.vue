@@ -11,9 +11,10 @@
                 <div class="flex relative">
                     <div>
                         <div class="rounded-xl bg-white p-4">
-                            <img class="object-cover d-flex items-center justify-center mx-auto max-h-[26px]"
+                            <nuxt-img placeholder
+                                class="object-cover d-flex items-center justify-center mx-auto max-h-[26px]"
                                 height="100%" width="100%"
-                                src="/assets/icons/phone.svg"
+                                src="/icons/phone.svg"
                                 alt="phone" />
                         </div>
                     </div>
@@ -27,9 +28,10 @@
                 <div class="flex relative">
                     <div>
                         <div class="rounded-xl bg-white p-4">
-                            <img class="object-cover d-flex items-center justify-center mx-auto max-h-[26px]"
+                            <nuxt-img placeholder
+                                class="object-cover d-flex items-center justify-center mx-auto max-h-[26px]"
                                 height="100%" width="100%"
-                                src="/assets/icons/phone.svg"
+                                src="/icons/phone.svg"
                                 alt="phone" />
                         </div>
                     </div>
@@ -46,9 +48,10 @@
                 <div class="flex relative">
                     <div>
                         <div class="rounded-xl bg-white p-4">
-                            <img class="object-cover d-flex items-center justify-center mx-auto max-h-[26px]"
+                            <nuxt-img placeholder
+                                class="object-cover d-flex items-center justify-center mx-auto max-h-[26px]"
                                 height="100%" width="100%"
-                                src="/assets/icons/whatsapp.svg"
+                                src="/icons/whatsapp.svg"
                                 alt="whatsapp" />
                         </div>
                     </div>
@@ -67,9 +70,10 @@
                     <div>
                         <div
                             class="rounded-xl bg-white inline-block p-4">
-                            <img class="object-cover d-flex items-center justify-center mx-auto max-h-[26px]"
+                            <nuxt-img placeholder
+                                class="object-cover d-flex items-center justify-center mx-auto max-h-[26px]"
                                 height="100%" width="100%"
-                                src="/assets/icons/location.svg"
+                                src="/icons/location.svg"
                                 alt="location" />
                         </div>
                     </div>
@@ -88,18 +92,20 @@
                 <div class="rounded-full bg-white p-6">
                     <a href="https://linkedin.com/in/gustaveckt"
                         target="_blank" rel="noopener">
-                        <img class="object-cover d-flex items-center justify-center mx-auto max-h-[30px]"
+                        <nuxt-img placeholder
+                            class="object-cover d-flex items-center justify-center mx-auto max-h-[30px]"
                             height="100%" width="100%"
-                            src="/assets/icons/linkedIn.svg"
+                            src="/icons/linkedIn.svg"
                             alt="linkedIn" />
                     </a>
                 </div>
                 <div class="rounded-full bg-white p-6">
                     <a href="https://github.com/gustaveckt"
                         target="_blank" rel="noopener">
-                        <img class="object-cover d-flex items-center justify-center mx-auto max-h-[30px]"
+                        <nuxt-img placeholder
+                            class="object-cover d-flex items-center justify-center mx-auto max-h-[30px]"
                             height="100%" width="100%"
-                            src="/assets/icons/github.svg"
+                            src="/icons/github.svg"
                             alt="github" />
                     </a>
                 </div>
@@ -144,8 +150,7 @@
                             placeholder="Votre message..."></textarea>
                     </div>
                     <UiButton size="lg">Soumettre</UiButton>
-                </form>
-            </div>
+            </form>
         </div>
     </div>
-</template>
+</div></template>

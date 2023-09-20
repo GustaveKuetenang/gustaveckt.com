@@ -8,7 +8,7 @@ const props = defineProps({
 <template>
   <a :href="href" :aria-label="ariaLabel"
     class="gray-scale stretched-link">
-    <img src="/assets/images/arrow-forward.svg"
+    <nuxt-img placeholder src="/images/arrow-forward.svg"
       alt="arrow-forward" width="40px" height="40px"
       aria-label={ariaLabel} />
   </a>
