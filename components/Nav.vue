@@ -2,7 +2,7 @@
 const { navLink } = useTailwindConfig();
 const textLinks: { label: string; href: string }[] = [
   { label: "Accueil", href: "/" },
-  { label: "Projets", href: "/work/" },
+  { label: "Projets", href: "/projects/" },
   { label: "A-propos", href: "/about/" },
   { label: "Contact", href: "/contact/" },
 ];

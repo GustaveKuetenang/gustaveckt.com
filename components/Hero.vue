@@ -14,13 +14,13 @@
           class="w-6/12 sm:w-1/3 md:w-4/12 lg:w-2/5 overflow-hidden rounded-ss-3xl rounded-ee-3xl">
           <nuxt-img placeholder src="/images/portrait.webp"
             class="w-full h-full object-cover"
-            alt="Portrait of Gustave Carel KUETENANG TSOPMO."
+            alt="Portrait of Gustave Carel KUETENANG TSOPMO"
             width="100%" height="100%" aria-hidden="true" />
         </div>
         <div
           class="w-full mt-6 sm:w-2/3 md:mt-0 md:8/12 lg:w-3/5 group">
           <p class="subtitle">DÉVELOPPEUR ET DESGIGNER</p>
-          <h1 class="title-1">Gustave Carel KUETENANG TSOPMO.
+          <h1 class="title-1">Gustave Carel KUETENANG TSOPMO
           </h1>
           <p class="text-gray-400 mt-3">
             Je suis un développeur passionné, prêt à mettre

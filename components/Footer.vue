@@ -3,7 +3,7 @@ const { navLinkFooter } = useTailwindConfig();
 
 const textLinks: { label: string; href: string }[] = [
   { label: "Accueil", href: "/" },
-  { label: "Travaux", href: "/work/" },
+  { label: "Projets", href: "/projects/" },
   { label: "A-propos", href: "/about/" },
   { label: "Contact", href: "/contact/" },
 ];
