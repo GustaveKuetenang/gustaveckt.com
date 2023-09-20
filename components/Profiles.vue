@@ -8,7 +8,7 @@
         class="mx-auto rounded-full bg-white h-[40px] w-[40px] md:h-[60px] md:w-[60px] flex items-center justify-center">
         <nuxt-img placeholder
           class="object-cover max-w-[14px] md:max-w-[24px] mx-auto"
-          height="100%" width="100%" src="/icons/linkedIn.svg"
+          width="24" height="24" src="/icons/linkedIn.svg"
           alt="linkedIn icon" />
       </div>
     </div>
@@ -17,7 +17,7 @@
         class="mx-auto rounded-full bg-white h-[40px] w-[40px] md:h-[60px] md:w-[60px] flex items-center justify-center">
         <nuxt-img placeholder
           class="object-cover max-w-[14px] md:max-w-[24px] mx-auto"
-          height="100%" width="100%" src="/icons/github.svg"
+          width="24" height="24" src="/icons/github.svg"
           alt="github icon" />
       </div>
     </div>

@@ -86,7 +86,7 @@
           <div class="h-[126px]">
             <nuxt-img placeholder
               class="object-contain mx-auto max-h-[126px]"
-              height="100%" width="100%"
+              height="126" width="189"
               src="/images/showcase.webp"
               alt="Projets de Gustave Carel KUETENANG TSOPMO." />
           </div>
@@ -107,8 +107,8 @@
           <div class="h-[126px]">
             <nuxt-img placeholder
               class="opacity-[0.1] max-h-[126px] object-contain mx-auto"
-              src="/images/coming-soon.webp" height="100%"
-              width="100%" alt="Illustration: Coming Soon" />
+              src="/images/coming-soon.webp" height="126"
+              width="189" alt="Illustration: Coming Soon" />
           </div>
           <div
             class="w-full flex items-center justify-between">
@@ -128,26 +128,29 @@
           <div class="p-6 h-[120px] w-1/4">
             <nuxt-img placeholder
               class="object-cover d-flex items-center justify-center mx-auto max-h-[30px]"
-              height="100%"
+              width="30" height="30"
               src="/icons/backend-development.svg"
               alt="Backend Development Icon" />
           </div>
           <div class="p-6 h-[120px] w-1/4">
             <nuxt-img placeholder
               class="object-cover d-flex items-center justify-center mx-auto max-h-[30px]"
-              height="100%" src="/icons/graphic-design.svg"
+              width="30" height="30"
+              src="/icons/graphic-design.svg"
               alt="Graphic Design Icon" />
           </div>
           <div class="p-6 h-[120px] w-1/4">
             <nuxt-img placeholder
               class="object-cover d-flex items-center justify-center mx-auto max-h-[30px]"
-              height="100%" src="/icons/web-design.svg"
+              width="30" height="30"
+              src="/icons/web-design.svg"
               alt="Web Design Icon" />
           </div>
           <div class="p-6 h-[120px] w-1/4">
             <nuxt-img placeholder
               class="object-cover d-flex items-center justify-center mx-auto max-h-[30px]"
-              height="100%" src="/icons/ui-ux-design.svg"
+              width="30" height="30"
+              src="/icons/ui-ux-design.svg"
               alt="UI/UX Design Icon" />
           </div>
         </div>
