@@ -41,25 +41,21 @@
           <div class="box group py-4 px-0 relative"
             role="navigation" aria-label="Recent Links">
             <div
-              class="overflow-x-hidden flex items-center justify-center">
-              <a href="/work"
+              class="scrolling-text-container flex items-center justify-center">
+              <NuxtLink to="/work"
                 class="m-0 mr-4 p-0 scrolling-text uppercase text-gray-500 text-sm">
                 Derniers <span
                   class="text-blue-600">travaux</span> et
-                <span class="text-blue-600">nouveautés</span>
-              </a>
-              <a href="/work"
-                class="m-0 mr-4 p-0 scrolling-text uppercase text-gray-500 text-sm">
+                <span class="text-blue-600 ">nouveautés</span>
+                <span class="mx-3">&middot;</span>
                 Derniers <span
                   class="text-blue-600">travaux</span> et
                 <span class="text-blue-600">nouveautés</span>
-              </a>
-              <a href="/work"
-                class="m-0 p-0 scrolling-text uppercase text-gray-500 text-sm">
+                <span class="mx-3">&middot;</span>
                 Derniers <span
                   class="text-blue-600">travaux</span> et
                 <span class="text-blue-600">nouveautés</span>
-              </a>
+              </NuxtLink>
             </div>
           </div>
         </div>
@@ -106,7 +102,7 @@
         <div class="flex flex-col">
           <div class="h-[126px]">
             <nuxt-img placeholder
-              class="opacity-[0.1] max-h-[126px] object-contain mx-auto"
+              class="opacity-[0.2] max-h-[126px] object-contain mx-auto"
               src="/images/coming-soon.webp" height="126"
               width="189" alt="Illustration: Coming Soon" />
           </div>

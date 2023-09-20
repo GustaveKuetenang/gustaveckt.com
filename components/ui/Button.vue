@@ -1,6 +1,6 @@
 <template>
     <button
-        class="flex justify-center rounded-full bg-blue-400 hover:bg-blue-500 text-white disabled:bg-blue-300 disabled:cursor-not-allowed"
+        class="flex justify-center rounded-full bg-blue-600 hover:bg-blue-700 text-white disabled:bg-blue-300 disabled:cursor-not-allowed"
         :disabled="props.disabled" :class="classes"
         @click="handleClick">
         <span :class="textFontSize">

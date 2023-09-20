@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -54,6 +56,6 @@
 
 @layer components {
   .box {
-    @apply rounded-3xl bg-white p-4 md:p-6 relative overflow-hidden;
+    @apply rounded-3xl border-[1px] border-gray-200/80 bg-white/20 bg-clip-padding pb-4 backdrop-blur-lg p-4 md:p-6 relative overflow-hidden shadow-sm;
   }
 }

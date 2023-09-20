@@ -2,7 +2,7 @@
 
 <template>
   <div
-    class="flex justify-between items-center bg-gray-50 rounded-3xl mb-3 p-6">
+    class="flex justify-between items-center bg-gray-50 border border-gray-200/80 rounded-3xl mb-3 p-6">
     <div class="w-1/2">
       <div
         class="mx-auto rounded-full bg-white h-[40px] w-[40px] md:h-[60px] md:w-[60px] flex items-center justify-center">

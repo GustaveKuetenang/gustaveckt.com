@@ -22,9 +22,16 @@ onMounted(() => {
 <template>
   <nav
     class="flex justify-between max-w-7xl px-2 sm:px-4 items-center mx-auto py-10">
-    <div>
-      <NuxtLink to="/" class="text-2xl font-semibold">
+    <div class="hidden lg:block">
+      <NuxtLink to="/"
+        class="text-2xl font-semibold !text-black">
         Gustave<span class="text-blue-600"> TSOPMO</span>
+      </NuxtLink>
+    </div>
+    <div class="block lg:hidden">
+      <NuxtLink to="/"
+        class="text-2xl font-semibold !text-black">
+        G.<span class="text-blue-600"> CKT</span>
       </NuxtLink>
     </div>
     <ul class="md:flex space-x-8 nav-links hidden">
