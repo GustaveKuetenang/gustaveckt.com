@@ -11,8 +11,9 @@
       <div
         class="col-span-4 order-1 md:col-span-4 lg:col-span-2 sm:items-stretch flex flex-col sm:flex-row items-center md:space-x-6 box group">
         <div
-          class="w-6/12 sm:w-1/3 md:w-4/12 lg:w-2/5 overflow-hidden rounded-ss-3xl rounded-ee-3xl">
-          <nuxt-img placeholder src="/images/portrait.webp"
+          class="w-6/12 sm:w-1/3 md:w-4/12 lg:w-2/5 overflow-hidden rounded-ss-3xl rounded-3xl">
+          <nuxt-img placeholder
+            src="/images/portrait-gustave-tsopmo.webp"
             class="w-full h-full object-cover"
             alt="Portrait of Gustave Carel KUETENANG TSOPMO"
             width="100%" height="100%" aria-hidden="true" />

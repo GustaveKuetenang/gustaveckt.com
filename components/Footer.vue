@@ -1,9 +1,8 @@
 <script lang="ts" setup>
-const { navLinkFooter } = useTailwindConfig();
 
 const textLinks: { label: string; href: string }[] = [
   { label: "Accueil", href: "/" },
-  { label: "Projets", href: "/projects/" },
+  { label: "Travaux", href: "/work/" },
   { label: "A-propos", href: "/about/" },
   { label: "Contact", href: "/contact/" },
 ];
@@ -20,9 +19,8 @@ const textLinks: { label: string; href: string }[] = [
     </div>
     <ul class="flex space-x-6 nav-links d-none text-gray-600">
       <li v-for="(link, index) in textLinks" :key="index">
-        <NuxtLink :to="link.href" :class="navLinkFooter"
-          class="nav-link">{{
-            link.label }}</NuxtLink>
+        <NuxtLink :to="link.href" class="nav-link-footer">{{
+          link.label }}</NuxtLink>
       </li>
     </ul>
     <p class="text-gray-500">

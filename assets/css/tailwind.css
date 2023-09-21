@@ -10,7 +10,7 @@
   }
 
   .page-title {
-    @apply text-3xl md:text-6xl  font-bold leading-snug uppercase;
+    @apply text-5xl lg:text-6xl  font-bold leading-snug uppercase;
   }
 
   .title-1 {
@@ -52,10 +52,30 @@
   .text-input-label {
     @apply block mb-2 text-sm font-medium text-gray-900 dark:text-white;
   }
+
+  .nav-item {
+    @apply cursor-pointer py-3 relative;
+  }
+
+  .nav-link {
+    @apply cursor-pointer;
+  }
+  .nav-link-footer {
+    @apply text-base uppercase cursor-pointer;
+  }
 }
 
 @layer components {
   .box {
     @apply rounded-3xl border-[1px] border-gray-200/80 bg-white/20 bg-clip-padding pb-4 backdrop-blur-lg p-4 md:p-6 relative overflow-hidden shadow-sm;
+  }
+  .project-grid {
+    @apply space-y-6 py-8 sm:columns-2 sm:gap-6 xl:columns-3;
+  }
+  .project-card {
+    @apply flex-1 break-inside-avoid rounded-3xl border border-gray-300 bg-white/20 bg-clip-padding p-6 pb-4 backdrop-blur-lg backdrop-filter md:w-[380px] w-full h-fit;
+  }
+  .project-card-title {
+    @apply flex-1 break-inside-avoid backdrop-filter md:w-[800px] pb-10 w-full h-fit;
   }
 }
