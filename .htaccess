@@ -1,4 +1,0 @@
-RewriteEngine On
-RewriteCond %{SERVER_PORT} 443
-RewriteRule ^index.php(.*) http://gustaveckt.com::2910/$1 [P,L]
-RewriteRule (.*) http://gustaveckt.com:2910/$1 [P,L]
