@@ -17,13 +17,13 @@ const page = () => {
     <div className="stack gap-20">
       <div className="wrapper stack gap-8">
         <div className="project-grid">
-          <div className="project-card-title">
+          <div className="project-card-title mr-6">
             <h1>
               <span className="page-title mb-6 md:text-left">Mes projets</span>
             </h1>
           </div>
           {projects.map((project) => (
-            <article key={project.id} className="project-card group">
+            <article key={project.id} className="project-card group mt-6">
               <div className="w-full h-[280px] mx-auto shadow-sm border border-transparent group-hover:shadow-xl group-hover:border-blue-600/25 rounded-3xl overflow-hidden transition duration-300 ease-in-out">
                 <Image
                   placeholder="empty"

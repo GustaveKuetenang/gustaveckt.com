@@ -34,7 +34,7 @@ const Profiles = () => {
           <p className="subtitle-sm">VITRINE</p>
           <h1 className="title-3">Profils</h1>
         </div>
-        <NextButton link="/work" />
+        <NextButton link="/contact" />
       </div>
     </div>
   );

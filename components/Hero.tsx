@@ -42,7 +42,7 @@ const Hero = () => {
             >
               <div className="scrolling-text-container flex items-center justify-center">
                 <Link
-                  href="/work"
+                  href="/works"
                   className="m-0 mr-4 p-0 scrolling-text uppercase text-gray-500 text-sm"
                 >
                   Derniers <span className="text-blue-600">travaux</span> et

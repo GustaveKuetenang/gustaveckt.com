@@ -91,7 +91,7 @@ body {
     @apply flex-1 break-inside-avoid rounded-3xl border border-gray-300 bg-white/20 bg-clip-padding p-6 pb-4 backdrop-blur-lg backdrop-filter w-full h-fit;
   }
   .project-card-title {
-    @apply flex-1 break-inside-avoid backdrop-filter md:w-[800px] pb-10 w-full h-fit;
+    @apply flex-1 break-inside-avoid backdrop-filter pb-10 w-full h-fit;
   }
   .btn-primary{
     @apply text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center;

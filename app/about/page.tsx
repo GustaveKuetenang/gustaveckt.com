@@ -67,7 +67,7 @@ const about = () => {
           </div>
         </div>
       </div>
-      <div className="mt-6 flex space-x-6">
+      <div className="mt-6 flex akign-start space-x-6">
         <div className="box w-full md:w-1/2">
           <h2 className="subtitle !text-gray-900 !font-medium">Expérience</h2>
           <ul className="list-none divide- space-y-6">
