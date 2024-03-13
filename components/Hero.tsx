@@ -15,7 +15,7 @@ const Hero = () => {
               src="/images/portrait-gustave-tsopmo.webp"
               className="w-full h-full object-cover"
               fill
-              alt="Portrait of Gustave Carel Kuetenang TSOPMO"
+              alt="Portrait of Gustave Carel Kuetenang Tsopmo"
               aria-hidden="true"
             />
           </div>
@@ -92,7 +92,7 @@ const Hero = () => {
                 <p className="subtitle-sm">VITRINE</p>
                 <h1 className="title-3">Projets</h1>
               </div>
-              <NextButton link="/work" />
+              <NextButton link="/works" />
             </div>
           </div>
         </div>
@@ -111,7 +111,7 @@ const Hero = () => {
             <div className="w-full flex items-center justify-between">
               <div>
                 <p className="subtitle-sm">Portfolio</p>
-                <h1 className="title-3">Mes designs</h1>
+                <h1 className="title-3">Graphic design</h1>
               </div>
               <NextButton link="designs" />
             </div>

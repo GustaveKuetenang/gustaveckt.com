@@ -39,7 +39,7 @@ const page = () => {
                   <p className="subtitle-sm">{project.category}</p>
                   <h1 className="title-3">{project.title}</h1>
                 </div>
-                <NextButton link={`works/${project.slug}`} />
+                <NextButton target link={`${project.url}`} />
               </div>
             </article>
           ))}

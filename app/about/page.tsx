@@ -79,7 +79,7 @@ const about = () => {
                     <p className="title-3 text-blue-600">{experience.role}</p>
                     <p className="mt-2 subtitle">{experience.company}</p>
                   </div>
-                  <NextButton link={`/about/${experience.id}`} />
+                  {/*<NextButton link={`/about/${experience.id}`} />*/}
                 </div>
               </li>
             ))}
@@ -96,7 +96,7 @@ const about = () => {
                     <p className="title-3 text-blue-600">{education.diploma}</p>
                     <p className="mt-2 subtitle">{education.institute}</p>
                   </div>
-                  <NextButton link={`/about/${education.id}`} />
+                  {/*<NextButton link={`/about/${education.id}`} />*/}
                 </div>
               </li>
             ))}

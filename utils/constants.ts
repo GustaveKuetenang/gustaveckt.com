@@ -4,13 +4,15 @@ export const projects = [
         title: "Prompt Share",
         slug: "prompt-share",
         category: "Web dev",
+        url: "https://promptshare-ckt.vercel.app",
         image: "/images/prompt-share.png",
     },
     {
         id: 1,
-        title: "My Custon Thread",
+        title: "My Custon Threads",
         slug: "custom-thread",
         category: "Web dev",
+        url: "https://threads-ckt.vercel.app",
         image: "/images/threads.png",
     },
     {
@@ -18,13 +20,15 @@ export const projects = [
         title: "KER Technologies",
         slug: "ker-technologies",
         category: "Web dev",
+        url: "https://kertechnologies.com",
         image: "/images/kertechnologies.png",
     },
     {
         id: 1,
         title: "HOUSE OF KERL",
         slug: "house-of-kerl",
-        category: "Wordpress",
+        category: "E-commerce",
+        url: "https://houseofkerl.com",
         image: "/images/project-card-img.png",
     },
 ];
@@ -76,6 +80,12 @@ export const educations = [
         id: 1,
         institute: "Institut Africain d'Informatique",
         period: "Nov. 2016 - Oct. 2019",
-        diploma: "Diplôme d'ingenieur en informatique (bac + 3)",
+        diploma: "Ingénieur de Travaux en Informatiques",
+    },
+    {
+        id: 2,
+        institute: "Institut Africain d'Informatique",
+        period: "Nov. 2016 - Oct. 2018",
+        diploma: "Technicien supérieur en informatique",
     },
 ];
