@@ -93,7 +93,7 @@ const page = () => {
               <div className="ml-2">
                 <p className="subtitle-sm">Adresse</p>
                 <p className="text-sm">
-                  Awae escalier, <br />
+                  Jouvence, <br />
                   Yaoundé Cameroun
                 </p>
               </div>
@@ -104,7 +104,7 @@ const page = () => {
             Social media
           </h5>
           <div className="flex space-x-6">
-            <div className="relative rounded-full bg-white p-6">
+            {/* <div className="relative rounded-full bg-white p-6">
               <a
                 href="https://linkedin.com/in/gustaveckt"
                 target="_blank"
@@ -118,10 +118,10 @@ const page = () => {
                   alt="linkedIn"
                 />
               </a>
-            </div>
+            </div> */}
             <div className="relative rounded-full bg-white p-6">
               <a
-                href="https://github.com/gustaveckt"
+                href="https://github.com/guskuete"
                 target="_blank"
                 rel="noopener"
               >
