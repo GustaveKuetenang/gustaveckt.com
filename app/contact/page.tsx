@@ -1,6 +1,5 @@
 import Contact from "@/components/contact";
 import Image from "next/image";
-import React from "react";
 
 const page = () => {
   return (
@@ -25,7 +24,7 @@ const page = () => {
                   href="mailto:guctaveckt@gmail.com"
                   className="cursor-pointer stretched-link hover:text-blue-600 hover:underline break-all text-sm"
                 >
-                  guctaveckt@gmail.com
+                  gustaveckt@gmail.com
                 </a>
               </div>
             </div>
@@ -121,7 +120,7 @@ const page = () => {
             </div> */}
             <div className="relative rounded-full bg-white p-6">
               <a
-                href="https://github.com/guskuete"
+                href="https://github.com/gustavekuetenang"
                 target="_blank"
                 rel="noopener"
               >

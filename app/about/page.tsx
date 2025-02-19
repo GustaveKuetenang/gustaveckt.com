@@ -1,7 +1,6 @@
-import NextButton from "@/components/NextButton";
-import { educations, experiences } from "@/utils/constants";
+import ExperienceSection from "@/components/experiences";
+import { educations } from "@/utils/constants";
 import Image from "next/image";
-import React from "react";
 
 export const metadata = {
   title: "A-propos | Gustave Kuetenang",
@@ -67,34 +66,26 @@ const about = () => {
           </div>
         </div>
       </div>
-      <div className="mt-6 flex akign-start space-x-6">
-        <div className="box w-full md:w-1/2">
-          <h2 className="subtitle !text-gray-900 !font-medium">Expérience</h2>
-          <ul className="list-none divide- space-y-6">
-            {experiences.map((experience) => (
-              <li className="pt-3">
-                <div className="relative group flex justify-between items-center">
-                  <div>
-                    <h4 className="subtitle mb-1">{experience.period}</h4>
-                    <p className="title-3 text-blue-600">{experience.role}</p>
-                    <p className="mt-2 subtitle">{experience.company}</p>
-                  </div>
-                  {/*<NextButton link={`/about/${experience.id}`} />*/}
-                </div>
-              </li>
-            ))}
-          </ul>
+      <div className="mt-6 flex flex-col md:flex-row align-start max-sm:space-y-6 md:space-x-6">
+        <div className="w-full md:w-1/2">
+          <ExperienceSection />
         </div>
-        <div className="box w-full md:w-1/2">
-          <h2 className="subtitle !text-gray-900 !font-medium">Éducation</h2>
+        <div className="box h-fit w-full md:w-1/2">
+          <h2 className="title-2 !text-gray-900 uppercase !font-medium">
+            Éducation
+          </h2>
           <ul className="list-none divide- space-y-6">
             {educations.map((education) => (
               <li className="pt-3">
                 <div className="relative group flex justify-between items-center">
                   <div>
-                    <h4 className="subtitle mb-1">{education.period}</h4>
-                    <p className="title-3 text-blue-600">{education.diploma}</p>
-                    <p className="mt-2 subtitle">{education.institute}</p>
+                    <h4 className="subtitle mb-1">
+                      {education.period} |{" "}
+                      <span className="subtitle">{education.institute}</span>
+                    </h4>
+                    <p className="title-3 text-gray-900 font-medium">
+                      {education.diploma}
+                    </p>
                   </div>
                   {/*<NextButton link={`/about/${education.id}`} />*/}
                 </div>
@@ -103,6 +94,27 @@ const about = () => {
           </ul>
         </div>
       </div>
+
+      {/*  <div className="box h-fit w-full mt-6">
+        <h2 className="subtitle !text-gray-900 !font-medium">Expérience</h2>
+       <ul className="list-none divide- space-y-6">
+          {experiences.map((experience: Experience) => (
+            <li className="pt-3">
+              <div className="relative group flex justify-between items-center">
+                <div>
+                  <h4 className="subtitle mb-1">
+                    {experience.period} |{" "}
+                    <span className="mt-2 subtitle">{experience.company}</span>
+                  </h4>
+                  <p className="title-3 text-blue-600 font-medium">
+                    {experience.role}
+                  </p>
+                </div>
+              </div>
+            </li>
+          ))}
+        </ul> 
+      </div>*/}
     </div>
   );
 };

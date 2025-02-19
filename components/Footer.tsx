@@ -6,7 +6,7 @@ import React from "react";
 
 const textLinks: { label: string; href: string }[] = [
   { label: "Accueil", href: "/" },
-  { label: "Travaux", href: "/works" },
+  { label: "Travaux", href: "/projects" },
   { label: "A-propos", href: "/about" },
   { label: "Contact", href: "/contact" },
 ];

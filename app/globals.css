@@ -6,7 +6,6 @@
 
 html,
 body {
-  height: 100%;
   overflow-x: hidden;
 }
 
@@ -22,7 +21,7 @@ body {
   }
 
   .page-title {
-    @apply text-5xl lg:text-6xl  font-bold leading-snug uppercase;
+    @apply text-4xl lg:text-5xl font-extrabold leading-snug uppercase;
   }
 
   .title-1 {
@@ -38,11 +37,15 @@ body {
   }
 
   .subtitle {
-    @apply uppercase text-gray-400;
+    @apply uppercase text-gray-500;
   }
 
   .subtitle-sm {
     @apply subtitle text-sm;
+  }
+
+  .description {
+    @apply text-sm font-normal text-gray-400;
   }
 
   .gray-scale {
@@ -93,11 +96,10 @@ body {
   .project-card-title {
     @apply flex-1 break-inside-avoid backdrop-filter pb-10 w-full h-fit;
   }
-  .btn-primary{
+  .btn-primary {
     @apply text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center;
   }
 }
-
 
 .scrolling-text-container {
   white-space: nowrap;

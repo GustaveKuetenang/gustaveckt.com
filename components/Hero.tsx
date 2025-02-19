@@ -42,7 +42,7 @@ const Hero = () => {
             >
               <div className="scrolling-text-container flex items-center justify-center">
                 <Link
-                  href="/works"
+                  href="/projects"
                   className="m-0 mr-4 p-0 scrolling-text uppercase text-gray-500 text-sm"
                 >
                   Derniers <span className="text-blue-600">travaux</span> et
@@ -92,7 +92,7 @@ const Hero = () => {
                 <p className="subtitle-sm">VITRINE</p>
                 <h1 className="title-3">Projets</h1>
               </div>
-              <NextButton link="/works" />
+              <NextButton link="/projects" />
             </div>
           </div>
         </div>
