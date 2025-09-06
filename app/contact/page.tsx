@@ -21,10 +21,10 @@ const page = () => {
               <div className="ml-3">
                 <p className="subtitle-sm">Adresse EMAIL</p>
                 <a
-                  href="mailto:guctaveckt@gmail.com"
+                  href="mailto:gustave.kuetenang@gmail.com"
                   className="cursor-pointer stretched-link hover:text-blue-600 hover:underline break-all text-sm"
                 >
-                  gustaveckt@gmail.com
+                  gustave.kuetenang@gmail.com
                 </a>
               </div>
             </div>
@@ -44,10 +44,10 @@ const page = () => {
               <div className="ml-3">
                 <p className="subtitle-sm">Téléphone</p>
                 <a
-                  href="tel:+237695705725"
+                  href="tel:+15814592943"
                   className="cursor-pointer stretched-link hover:text-blue-600 hover:underline"
                 >
-                  <p className="text-sm">+237 695 705 725</p>
+                  <p className="text-sm">(581) 459-2943</p>
                 </a>
               </div>
             </div>
@@ -69,10 +69,10 @@ const page = () => {
                 <a
                   target="_blank"
                   rel="noopener"
-                  href="https://wa.me/695705725"
+                  href="https://wa.me/5814592943"
                   className="cursor-pointer stretched-link hover:text-blue-600 hover:underline"
                 >
-                  <p className="text-sm">+237 695 705 725</p>
+                  <p className="text-sm">(581) 459-2943</p>
                 </a>
               </div>
             </div>
@@ -92,8 +92,8 @@ const page = () => {
               <div className="ml-2">
                 <p className="subtitle-sm">Adresse</p>
                 <p className="text-sm">
-                  Jouvence, <br />
-                  Yaoundé Cameroun
+                  Quebec, QC <br />
+                  Canada
                 </p>
               </div>
             </div>
@@ -103,9 +103,9 @@ const page = () => {
             Social media
           </h5>
           <div className="flex space-x-6">
-            {/* <div className="relative rounded-full bg-white p-6">
+              <div className="relative rounded-full bg-white p-6">
               <a
-                href="https://linkedin.com/in/gustaveckt"
+                href="https://linkedin.com/in/gustavekuetenang"
                 target="_blank"
                 rel="noopener"
               >
@@ -117,7 +117,7 @@ const page = () => {
                   alt="linkedIn"
                 />
               </a>
-            </div> */}
+            </div>
             <div className="relative rounded-full bg-white p-6">
               <a
                 href="https://github.com/gustavekuetenang"

@@ -81,16 +81,15 @@ export const projects = [
         url: "https://schooma.gustaveckt.com",
         image: "/images/schooma.png",
     },
-
-    {
-        id: 3,
-        title: "Threads Clone",
-        description: 'Clône du réseau social Threads',
-        slug: "threads",
-        category: "Web dev",
-        url: "https://threads-ckt.vercel.app",
-        image: "/images/threads.png",
-    },
+    // {
+    //     id: 3,
+    //     title: "Threads Clone",
+    //     description: 'Clône du réseau social Threads',
+    //     slug: "threads",
+    //     category: "Web dev",
+    //     url: "https://threads-ckt.vercel.app",
+    //     image: "/images/threads.png",
+    // },
     {
         id: 2,
         title: "HOUSE OF KERL",
